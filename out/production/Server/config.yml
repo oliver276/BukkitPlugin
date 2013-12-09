@@ -1,0 +1,6 @@
+motd:
+  ingame: "&aWelcome to the server! Enjoy!"
+  system: "&6&l&nWelcome!"
+  systembefore: "&b&lWelcome back!"
+AutoUpdate:
+  Enabled: false

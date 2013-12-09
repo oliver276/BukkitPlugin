@@ -1,0 +1,52 @@
+name: MOTD
+version: 3.1
+main: me.oliver276.server.Main
+description: A super advanced MOTD plugin!
+
+commands:
+    motd:
+        usage: /<command>
+        description: View MOTD
+    toggleping:
+        usage: /<command>
+        description: toggle ping message!
+    setmotd:
+        usage: /<command>
+        description: Set MOTD
+    setsystemmotd:
+        usage: /<command>
+        description: Set system MOTD
+    setbeforesystemmotd:
+        usage: /<command>
+        description: Set the secondary system MOTD
+    getpingplayer:
+        usage: /<command>
+        description: Get the players who are listening for ping events
+    setserverimage:
+        usage: /<command>
+        description: Set the server image.
+
+permissions:
+    motd.*:
+       description: Use all MOTD commands.
+       children:
+           motd.check: true
+           motd.set: true
+           motd.setsystem: true
+           motd.setsystemafter: true
+       default: op
+    motd.check:
+        description: Check the MOTD.
+        default: true
+    motd.set:
+        description: Use the setmotd command to change the MOTD.
+        default: op
+    motd.setsystem:
+        description: Use the setmotd command to change the MOTD.
+        default: op
+    motd.setsystemafter:
+        description: Use the setmotd command to change the MOTD.
+        default: op
+    motd.checkupdate:
+        description: See, on login, if there's an update available.
+        default: op
