@@ -1,5 +1,5 @@
 name: MOTD
-version: 3.1
+version: 3.2
 main: me.oliver276.server.Main
 description: A super advanced MOTD plugin
 
