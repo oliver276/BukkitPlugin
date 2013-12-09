@@ -84,6 +84,16 @@ public class Main extends JavaPlugin implements Listener {
                 motd = motd.replaceAll("%player%",cfg);
             }
             e.setMotd(motd);
+
+            try{
+                String thi = Main.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
+                String str = thi.substring(0, thi.lastIndexOf('/'));
+                new File(str + "/MOTD/faces/").mkdirs();
+                new File(str + "/MOTD/helm/").mkdirs();
+            }catch(Exception ex){
+
+            }
+
             BufferedImage img = null;
             if (getConfig().getBoolean("Image.faces")){
                 try {
@@ -214,6 +224,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         getConfig().options().copyDefaults(true);
         saveConfig();
+
 
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
         if (getConfig().getBoolean("AutoUpdate.Enabled")){
