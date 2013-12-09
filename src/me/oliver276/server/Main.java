@@ -123,6 +123,46 @@ public class Main extends JavaPlugin implements Listener {
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
+            }else{
+                if (getConfig().getBoolean("Image.mask")){
+                    try {
+                        String thi = Main.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
+                        String str = thi.substring(0, thi.lastIndexOf('/'));
+                        if (new File(str + "/MOTD/helm/" + cfg + ".png").exists()){
+                            if (new ImageIcon(str + "/MOTD/helm/" + cfg + ".png").getImage().getWidth(null) == 64) {
+
+                                img = ImageIO.read(new File(str + "/MOTD/helm/" + cfg + ".png"));
+
+                                e.setServerIcon(getServer().loadServerIcon(img));
+                            }else{
+                                Bukkit.getLogger().warning(ChatColor.DARK_RED + cfg + "'s face was not a 64x64 image!");
+                            }
+                        }else{
+                            URL url = new URL("https://minotar.net/helm/"+ cfg + "/64.png");
+                            Image im = ImageIO.read(url);
+                            InputStream in = new BufferedInputStream(url.openStream());
+                            ByteArrayOutputStream out = new ByteArrayOutputStream();
+                            byte[] buf = new byte[1024];
+                            int n = 0;
+                            while (-1!=(n=in.read(buf)))
+                            {
+                                out.write(buf, 0, n);
+                            }
+                            out.close();
+                            in.close();
+                            byte[] response = out.toByteArray();
+                            FileOutputStream fos = new FileOutputStream(str + "/MOTD/helm/" + cfg + ".png");
+                            fos.write(response);
+                            fos.close();
+                            img = ImageIO.read(new File(str + "/MOTD/helm/" + cfg + ".png"));
+
+                            e.setServerIcon(getServer().loadServerIcon(img));
+                        }
+
+                    } catch (Exception ex) {
+                        ex.printStackTrace();
+                    }
+                }
             }
 
 

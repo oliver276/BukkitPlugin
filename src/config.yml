@@ -6,3 +6,4 @@ AutoUpdate:
   Enabled: false
 Image:
   faces: true
+  mask: false

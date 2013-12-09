@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e345bed2-d56b-4a79-a97d-b8aefda372bf" name="Default" comment="" />
+    <list default="true" id="e345bed2-d56b-4a79-a97d-b8aefda372bf" name="Default" comment="U">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/oliver276/server/Main.java" afterPath="$PROJECT_DIR$/src/me/oliver276/server/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.yml" afterPath="$PROJECT_DIR$/src/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386509084993" ignored="false" />
-    <file path="/config.yml" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386509262845" ignored="false" />
+    <file path="/Main.java" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386613841450" ignored="false" />
+    <file path="/config.yml" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386613949138" ignored="false" />
     <file path="/plugin.yml" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386019936624" ignored="false" />
     <file path="/Updater.java" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1385843228432" ignored="false" />
     <file path="$PROJECT_DIR$/../SetAmounts/src/me/oliver276/setamounts/Updater.java" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1378154692451" ignored="false" />
     <file path="$PROJECT_DIR$/../SetAmounts/src/me/oliver276/setamounts/Main.java" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1378155006806" ignored="false" />
     <file path="$PROJECT_DIR$/../SetAmounts/src/plugin.yml" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1378155094464" ignored="false" />
-    <file path="/Dummy.txt" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386612816279" ignored="false" />
+    <file path="/Dummy.txt" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386613927034" ignored="false" />
     <file path="/SMain.java" changelist="e345bed2-d56b-4a79-a97d-b8aefda372bf" time="1386612801488" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,16 +81,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/oliver276/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="51" selection-start="0" selection-end="13907" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SMain.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/oliver276/server/SMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="33" selection-start="897" selection-end="897" vertical-scroll-proportion="0.2797075">
+            <state line="117" column="46" selection-start="4729" selection-end="4729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+            <state line="8" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.24285714">
               <folding />
             </state>
           </provider>
@@ -146,12 +141,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/me/oliver276/server/Main.java" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/oliver276/server/Updater.java" />
         <option value="$PROJECT_DIR$/src/me/oliver276/server/SMain.java" />
+        <option value="$PROJECT_DIR$/src/me/oliver276/server/Main.java" />
+        <option value="$PROJECT_DIR$/src/config.yml" />
       </list>
     </option>
   </component>
@@ -415,7 +410,11 @@
       <created>1386612820296</created>
       <updated>1386612820296</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed Added SMain">
+      <created>1386613486616</created>
+      <updated>1386613486616</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,7 +485,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SMain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Added SMain" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -502,6 +501,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Check for bugs" />
     <MESSAGE value="Added SMain" />
+    <MESSAGE value="Removed Added SMain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -579,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="41" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
@@ -598,6 +591,13 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/oliver276/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="46" selection-start="4729" selection-end="4729" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/oliver276/server/Updater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="196" column="72" selection-start="8094" selection-end="8094" vertical-scroll-proportion="0.0">
@@ -605,16 +605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/oliver276/server/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="51" selection-start="0" selection-end="13907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/oliver276/server/SMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="897" selection-end="897" vertical-scroll-proportion="0.2797075">
+        <state line="8" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.24285714">
           <folding />
         </state>
       </provider>
