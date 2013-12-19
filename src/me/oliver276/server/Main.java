@@ -238,7 +238,7 @@ public class Main extends JavaPlugin implements Listener {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 
         if (cmd.getName().equalsIgnoreCase("setserverimage")){
-            if (!(sender.hasPermission("MOTD.setserveriage"))){
+            if (!(sender.hasPermission("MOTD.setserverimage"))){
                 sender.sendMessage(ChatColor.DARK_RED + "You do not have access to this command!");
                 return true;
             }
