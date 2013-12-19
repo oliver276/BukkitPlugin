@@ -34,6 +34,8 @@ permissions:
            motd.set: true
            motd.setsystem: true
            motd.setsystemafter: true
+           motd.checkupdate: true
+           motd.setserverimge: true
        default: op
     motd.check:
         description: Check the MOTD.
@@ -42,11 +44,14 @@ permissions:
         description: Use the setmotd command to change the MOTD.
         default: op
     motd.setsystem:
-        description: Use the setmotd command to change the MOTD.
+        description: Use the setsystemmotd command to change the MOTD.
         default: op
     motd.setsystemafter:
-        description: Use the setmotd command to change the MOTD.
+        description: Use the setsystembeforemotd command to change the MOTD.
         default: op
     motd.checkupdate:
         description: See, on login, if there's an update available.
+        default: op
+    motd.setserverimage:
+        description: Use the /setserverimage command
         default: op
