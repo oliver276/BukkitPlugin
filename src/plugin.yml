@@ -23,7 +23,7 @@ commands:
         usage: /<command>
         description: Get the players who are listening for ping events
     setserverimage:
-        usage: /<command>
+        usage: /<command> <URL>
         description: Set the server image.
 
 permissions:
