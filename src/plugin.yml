@@ -11,13 +11,13 @@ commands:
         usage: /<command>
         description: toggle ping message!
     setmotd:
-        usage: /<command>
+        usage: /<command> <New MOTD . . .
         description: Set MOTD
     setsystemmotd:
-        usage: /<command>
+        usage: /<command> <New MOTD . . .
         description: Set system MOTD
     setbeforesystemmotd:
-        usage: /<command>
+        usage: /<command> <MOTD for previous players . . .
         description: Set the secondary system MOTD
     getpingplayer:
         usage: /<command>
